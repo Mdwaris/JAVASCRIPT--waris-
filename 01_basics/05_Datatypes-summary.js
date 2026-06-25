@@ -50,3 +50,31 @@ const myFunction = function(){
 // symbole => symbole
 
 // STUDY LINK => https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+//*********************************************************MEMORY********************************************* */
+//Stack(primitive)  = ismai copy milta hai
+// heap(Non-Primitive)  = reference
+let myyoutubename = "wariskhancom"
+
+let anothername = myyoutubename
+anothername = "chaiaurcode"
+ //console.log(myyoutubename);
+ //console.log(anothername);
+ let userOne = {
+    email: " user@google.com",
+    upi: "user@sbi"
+ }
+
+ let userTwo =  userOne
+
+ userTwo.email = "waris@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
+
+
+
